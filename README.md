@@ -40,4 +40,4 @@ npm run dev
 
 Åbn siden på ``http:localhost:3000`` - Eller læs i terminalen hvis det skulle være en anden port end `3000`
 
-### 5. Alt materiale finder du på https://smuknu.webmcdm.dk
+### 5. Alt materiale finder du på https://legekrogen.webmcdm.dk

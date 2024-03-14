@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "ce937035-ce72-49df-b4e0-3b6848cf3435",
-		"name": "MCDM - Smuknu Exam DB",
+		"_postman_id": "e75801d3-0fe5-45e7-902f-8b5c43c2557a",
+		"name": "MCDM - Legekrogen Exam DB",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "17346811"
+		"_exporter_id": "17346811",
+		"_collection_link": "https://mcdmviborg.postman.co/workspace/MCDM-Boiler-Templates~3a083f64-8a60-4d6e-bb07-860691da039a/collection/17346811-e75801d3-0fe5-45e7-902f-8b5c43c2557a?action=share&source=collection_link&creator=17346811"
 	},
 	"item": [
 		{
@@ -301,7 +302,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/products?range=65e4d13f12826c065d86bd04,65e4d13f12826c065d86bd04,65e4d13f12826c065d86bd04",
+							"raw": "http://localhost:3000/api/products?range=65eec0d4d79057748abf1b2c,65eec0d4d79057748abf1b2e",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -314,7 +315,7 @@
 							"query": [
 								{
 									"key": "range",
-									"value": "65e4d13f12826c065d86bd04,65e4d13f12826c065d86bd04,65e4d13f12826c065d86bd04"
+									"value": "65eec0d4d79057748abf1b2c,65eec0d4d79057748abf1b2e"
 								}
 							]
 						}
@@ -378,7 +379,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/order?email=anders@mediacollege.dks",
+							"raw": "http://localhost:3000/api/order?email=anders@mediacollege.dk",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -391,7 +392,7 @@
 							"query": [
 								{
 									"key": "email",
-									"value": "anders@mediacollege.dks"
+									"value": "anders@mediacollege.dk"
 								}
 							]
 						}
