@@ -1,14 +1,10 @@
 "use client"
-import Image from "next/image";
-import Link from "next/link";
-import { FaBars, FaShoppingBasket } from "react-icons/fa";
 import PromoBanner from "./promoBanner/promoBanner";
 import Nav from "./nav/nav";
-import { useEffect, useRef, useState } from "react";
-import { useBasket } from "@/context/basket";
 import styles from "./header.module.css";
 import BasketMenu from "./basketMenu/basketMenu";
 import NavMenu from "./navMenu/navMenu";
+import { useState } from "react";
 
 const Header = () => {
 
