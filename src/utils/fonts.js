@@ -1,4 +1,6 @@
 import { Oswald } from 'next/font/google'
+import { Quicksand } from 'next/font/google'
+
 
 export const oswaldFont = Oswald({
     weight: ['400'],
@@ -6,3 +8,10 @@ export const oswaldFont = Oswald({
     subsets: ['latin'],
     display: 'swap',
 });
+
+export const quicksandFont = Quicksand({
+    style: ['normal'],
+    subsets: ['latin'],
+    display: 'swap',
+});
+

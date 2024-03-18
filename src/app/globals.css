@@ -1,7 +1,16 @@
 :root {
 
   /* Global Variables */
-  --main-color: lightblue;
+  --black-color: #000;
+  --white-color: #fff;
+  --dark-blue-color: #355674;
+  --light-blue-color: #D7E6EC;
+  --dark-purple-color: #6B5879;
+  --purple-color: #9478A7;
+  --light-purple-color: #C1ADCE;
+  --purple-transprant: #C1ADCE93;
+  --black-transprant: #00000036;
+  --light-black-transprant: #00000029;
 
   /* Component Specific Variables */
   --box-color: #fff;
@@ -30,13 +39,11 @@
 
 html,
 body {
-  background-color: var(--main-color);
+  background-color: var(--white-color);
+  color: var(--dark-blue-color);
+
 }
 
-body {
-  background-color: var(--main-color);
-  ;
-}
 
 a {
   color: inherit;
