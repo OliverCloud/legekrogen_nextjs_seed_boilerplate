@@ -15,7 +15,6 @@ const ProductCard = ({ product }) => {
         <div className={styles.img}>
           <Image src={product.image} alt={product.title} width={300} height={300} />
           <div className={`${styles.discount} ${discount}`}>
-            <p>Spar</p>
             <p>{product.discountInPercent}%</p>
           </div>
         </div>

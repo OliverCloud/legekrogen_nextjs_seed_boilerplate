@@ -26,7 +26,7 @@ const Header = () => {
       <div className={styles.wrapper}>
         <PromoBanner />
         <Nav handleBarsMenu={handleBarsMenu} handleBasketMenu={handleBasketMenu}  />
-        {navMenu && <NavMenu />}
+        {navMenu && <NavMenu navMenu={navMenu} setNavMenu={setNavMenu} />}
         {basketMenu && <BasketMenu />}
 
       </div>

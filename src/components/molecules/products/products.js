@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 import ProductCard from './productCard/productCard';
 import styles from './products.module.css';
 
-const Products = ({dispalyLengh}) => {
-
+const Products = ({ recomended }) => {
+  
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -12,6 +12,8 @@ const Products = ({dispalyLengh}) => {
       .then(res => res.json())
       .then(data => setProducts(data));
   }, []);
+
+  const filteredProducts = recomended ? products.filter(product => product.recommended) : products;
 
   return (
     <div className={styles.container}>
@@ -21,18 +23,13 @@ const Products = ({dispalyLengh}) => {
           <p>LEGETØJ</p>
         </div>
         <div className={styles.products}>
-          {dispalyLengh = false ? (
-            products.map(product => (
-              <ProductCard key={product._id} product={product} />
-            ))
-          ) : (
-            products.slice(0, dispalyLengh).map(product => (
-              <ProductCard key={product._id} product={product} />
-            ))
-          )}
+          {filteredProducts.map(product => (
+            <ProductCard key={product._id} product={product} />
+          ))}
         </div>
       </div>
     </div>
   );
-}
+};
+
 export default Products;

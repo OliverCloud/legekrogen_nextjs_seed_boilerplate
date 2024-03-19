@@ -10,7 +10,6 @@
 
   padding: 0.5rem 1rem;
 
-  color: var(--white-color);
   background-color: var(--dark-blue-color);
 }
 
@@ -19,15 +18,36 @@
   align-items: center;
   gap: 0.8rem;
   font-size: 1.5rem;
+  color: var(--white-color);
 }
 
 .logo > img {
   width: 100%;
   max-height: 3.5rem;
 } 
+.barsBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+}
 
 .basketBtn {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: var(--light-blue-color);
+}
+.basketBtn:hover {
+  color: var(--white-color);
+}
+
+.basketBtn.active {
+  color: var(--white-color);
 }
 
 .basketBtn > p {
@@ -39,10 +59,15 @@
   justify-content: center;
   align-items: center;
   font-size: 0.5rem;
-  color: var(--black-color);
+  color: var(--dark-blue-color);
   aspect-ratio: 1/1;
   border-radius: 50%;
-  transform: translate(50%, -35%);
+  transform: translateX(50%);
+  background-color: var(--light-blue-color);
+}
+.basketBtn.active > p {
   background-color: var(--white-color);
-
+}
+.basketBtn:hover > p {
+  background-color: var(--white-color);
 }

@@ -14,6 +14,7 @@
 
   /* Component Specific Variables */
   --box-color: #fff;
+  --faq-box-border-color: #BCBCBC;
 }
 
 @media (prefers-color-scheme: dark) {

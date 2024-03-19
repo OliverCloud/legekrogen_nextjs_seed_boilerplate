@@ -33,9 +33,7 @@ const Nav = ({ handleBasketMenu, handleBarsMenu}) => {
       </Link>
       <div>
         <div
-          className={`${styles.basketBtn} ${
-            basketIcon > 0 ? styles.active : ""
-          }`}
+          className={`${styles.basketBtn} ${basketIcon ? styles.active : ""}`}
           onClick={handleBasketMenu}
         >
           <FaShoppingCart />

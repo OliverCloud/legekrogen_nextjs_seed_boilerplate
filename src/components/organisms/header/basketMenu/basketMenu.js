@@ -56,8 +56,7 @@ const BasketMenu = ({close}) => {
           })}
           
           <div className={styles.checkout}>
-            <p>Ialt</p>
-            <p className={styles.inTotal}>{inTotal} kr.</p>
+            <p className={styles.inTotal}>I alt {inTotal} kr.</p>
           </div>
 
         </div>
