@@ -1,4 +1,5 @@
-import Header from "@/components/organisms/header/header";
+import Header from "@/components/(site)/organisms/header/header";
+
 
 export default function siteLayout({ children }) {
     return <div>

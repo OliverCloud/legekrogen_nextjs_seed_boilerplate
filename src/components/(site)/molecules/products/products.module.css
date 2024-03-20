@@ -1,0 +1,50 @@
+
+
+.container {
+  width: 100%;
+  background-color: var(--light-purple-color);
+  padding: 0 1rem 2.5rem;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.title {
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+}
+.title > p {
+  font-size: 4rem;
+  max-width: 20rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.title > p:first-child {
+  font-weight: 500;
+  font-family: var(--square-peg-font);
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+  .title > p {
+    font-size: 4rem;
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}

@@ -1,10 +1,10 @@
 
-import Hero from '@/components/molecules/hero/hero';
+import Hero from '@/components/(site)/molecules/hero/hero';
 import styles from './page.module.css';
-import Footer from '@/components/organisms/footer/footer';
-import Members from '@/components/molecules/members/members';
-import Accordions from '@/components/molecules/accordions/accordions';
 import { faqConfig } from '@/context/heroData';
+import Accordions from '@/components/(site)/molecules/accordions/accordions';
+import Members from '@/components/(site)/molecules/members/members';
+import Footer from '@/components/(site)/organisms/footer/footer';
 
 const Page = () => {
 

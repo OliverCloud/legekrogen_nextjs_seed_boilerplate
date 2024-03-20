@@ -1,13 +1,11 @@
-"use client"
 
-import Products from '@/components/molecules/products/products'
+import Hero from '@/components/(site)/molecules/hero/hero'
 import styles from './page.module.css'
-import Hero from '@/components/molecules/hero/hero'
-import Reviews from '@/components/molecules/reviews/reviews'
-import Members from '@/components/molecules/members/members'
-import Footer from '@/components/organisms/footer/footer'
 import { heroConfig } from '@/context/heroData'
-
+import Products from '@/components/(site)/molecules/products/products'
+import Reviews from '@/components/(site)/molecules/reviews/reviews'
+import Members from '@/components/(site)/molecules/members/members'
+import Footer from '@/components/(site)/organisms/footer/footer'
 export default function Home() {
 
   return (

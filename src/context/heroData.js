@@ -28,3 +28,12 @@ export const faqConfig = {
   text: 'Måske er de allerede besvaret herunder. Ellers er du altid velkommen til at kontakte os',
   btn: false
 }
+
+export const membersConfig = {
+  bgImg: '/heros/medlem.jpg',
+  boxFil: false,
+  title: 'KUNDEKLUB?',
+  subTitle: 'Vil du være en del af vores',
+  text: 'Tilmeld dig vores kundeklub og få adgang til eksklusive tilbud og rabatter',
+  btn: false
+}

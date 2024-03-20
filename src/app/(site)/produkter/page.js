@@ -1,10 +1,11 @@
 
-import Hero from '@/components/molecules/hero/hero';
+
+import Hero from '@/components/(site)/molecules/hero/hero';
 import styles from './page.module.css';
-import Products from '@/components/molecules/products/products';
-import Members from '@/components/molecules/members/members';
-import Footer from '@/components/organisms/footer/footer';
 import { productsConfig } from '@/context/heroData';
+import Products from '@/components/(site)/molecules/products/products';
+import Members from '@/components/(site)/molecules/members/members';
+import Footer from '@/components/(site)/organisms/footer/footer';
 
 const Page = () => {
 

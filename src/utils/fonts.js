@@ -1,13 +1,6 @@
-import { Oswald } from 'next/font/google'
+
 import { Quicksand } from 'next/font/google'
-
-
-export const oswaldFont = Oswald({
-    weight: ['400'],
-    style: ['normal'],
-    subsets: ['latin'],
-    display: 'swap',
-});
+import { Square_Peg } from 'next/font/google'
 
 export const quicksandFont = Quicksand({
     style: ['normal'],
@@ -15,3 +8,10 @@ export const quicksandFont = Quicksand({
     display: 'swap',
 });
 
+export const squarepegFont = Square_Peg({
+    weight: ['400'],
+    style: ['normal'],
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--square-peg-font',
+});
